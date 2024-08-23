@@ -44,6 +44,51 @@
 }
 
 
+/* SECTION */
+.faixa-produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 64px 0px;
+
+    background-color: var(--white-light);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--brow);
+    gap: 11px;
+    font-size: 15pt;
+    font-weight: 400;
+
+    padding: 25px;
+}
+
+
+/* PRODUTOS */
+.section-produtos h2{
+    text-align: center;
+    font-size: 18pt;
+    padding: 26px 0px;
+}
+.cards-produts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+.card-produts{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+
 @media screen and (max-width: 768px){
     .greeting-paragraph{
         font-size: .8rem;
@@ -56,5 +101,15 @@
     }
     .button-main{
         display: none;
+    }
+    .card{
+        padding: 25px 86px;
+    }
+    .cards-produts{
+        flex-direction: column;
+    }
+    .card-produts{
+        width: 70%;
+        margin-bottom: 19px;
     }
 }
