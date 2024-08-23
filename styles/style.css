@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font-destaque);
+}
+
+:root {
+    --white-normal: #ede6d9;
+    --white-light: #c5baaa;
+    --white-dark: #b3a39d;
+
+    --brow: #806d61;
+    --blak: #2c2c2c;
+
+    --font-destaque: 'Lora', sans-serif;
+}
+svg{
+    width: 100%;
+}
+img{
+    width: 100%;
+}

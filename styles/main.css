@@ -1,0 +1,60 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+
+    width: 100%;
+    height: 70vh;
+
+    padding: 80px 32px;
+
+    color: var(--white-normal);
+    font-family: var(--font-destaque);
+}
+.greeting-paragraph{
+    font-size: 12pt;
+    line-height: 1em;
+}
+.tittle-principal{
+    font-size: 33pt;
+    font-style: italic;
+    font-weight: 500;
+}
+.slogan{
+    font-size: 13pt;
+    color: var(--white-light);
+    font-weight: 900;
+}
+.button-main{
+    margin-top: 25px;
+    padding: 8px 15px;
+    font-size: 8pt;
+    border-radius: 20px;
+    border: 2px solid var(--white-dark);
+    background-color: var(--white-normal);
+
+    transition: 1s;
+    cursor: pointer;
+    font-weight: 600;
+}
+.button-main:hover{
+    border: 2px solid var(--white-normal);
+    background-color: var(--white-dark);
+}
+
+
+@media screen and (max-width: 768px){
+    .greeting-paragraph{
+        font-size: .8rem;
+    }
+    .tittle-principal{
+        font-size: 1.8rem;
+    }
+    .slogan{
+        font-size: .9rem;
+    }
+    .button-main{
+        display: none;
+    }
+}
